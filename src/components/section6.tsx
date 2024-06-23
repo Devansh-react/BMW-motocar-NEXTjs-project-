@@ -2,6 +2,7 @@
 import React from 'react'
 import { WavyBackground } from './ui/wavy-background'
 import { AnimatedTooltip } from './ui/animated-tooltip'
+import Image from 'next/image';
 
 const dummydata =[
     
@@ -9,7 +10,7 @@ const dummydata =[
           "id": 1,
           "name": "Alice Smith",
           "designation": "Software Engineer",
-          "image": "https://unsplash.com/photos/a-woman-with-curly-hair-wearing-a-tank-top-JXDFfSHarvY"
+         "image": "https://unsplash.com/photos/a-woman-with-curly-hair-wearing-a-tank-top-JXDFfSHarvY"
         },
         {
           "id": 2,

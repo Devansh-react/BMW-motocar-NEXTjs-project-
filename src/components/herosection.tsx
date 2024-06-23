@@ -6,18 +6,25 @@ import { HoverBorderGradient } from './ui/hover-border-gradient';
 
 function Herosection() {
   return (
+
+    
     <div className='h-auto md:h-[40rem] w-full rounded-md flex flex-col justify-center items-center relative overflow-hidden mx-auto'>
+      <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
       <Spotlight
         className="-top-60 -left-60 md:-left-20 left-0 md:left-60 md:-top-20"
-        fill="white"
+        fill="red"
+      />
+      <Spotlight
+        className="-top-60 -right-60 md:-right-20 right-0 md:right-60 md:-top-20"
+        fill="blue"
       />
 
       <div className='p-4 text-center w-full relative z-10'>
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
-        >DEVANSH-REACT</h1>
+        >WELCOME TO THE BMW</h1>
         <p
           className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet et, non unde a debitis magni magnam? Ducimus veritatis explicabo neque officiis nostrum quidem vitae dolorum debitis libero sint ut, omnis aspernatur aliquam consequuntu</p>
+        >Experience the ultimate driving machine. Explore our range of innovative and luxurious vehicles, designed to deliver unparalleled performance and style. From sleek sedans to powerful SUVs, find the perfect BMW to ignite your passion for the road</p>
         <div className='mt-5'>
           <Link href={'/'}>
 
@@ -31,6 +38,7 @@ function Herosection() {
             </div>
 
           </Link>
+        </div>
         </div>
 
       </div>
